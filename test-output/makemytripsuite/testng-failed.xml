@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [makemytripsuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke(failed)">
+    <classes>
+      <class name="TestCases.Login">
+        <methods>
+          <include name="openurl"/>
+          <include name="testcasedone"/>
+          <include name="closeBrowser"/>
+          <include name="getwebdriver"/>
+          <include name="automationpractice004"/>
+        </methods>
+      </class> <!-- TestCases.Login -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [makemytripsuite] -->
